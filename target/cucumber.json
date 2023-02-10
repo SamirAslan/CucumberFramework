@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-10T13:34:49.735Z",
+        "line": 13,
+        "name": "Go to Trendyol and Login Test",
+        "description": "",
+        "id": "login-test;go-to-trendyol-and-login-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 675371900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Login_Steps.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4584856400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Website",
+            "match": {
+              "location": "Steps.Login_Steps.navigate_to_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175968900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click Popup",
+            "match": {
+              "location": "Steps.Login_Steps.click_Popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1050169500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click Sign in button",
+            "match": {
+              "location": "Steps.Login_Steps.click_Sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166048100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter Email \"notstick61@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "notstick61@gmail.com",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.Login_Steps.enter_Email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131692200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "write Password \"Antimon.55\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Antimon.55",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.Login_Steps.write_Password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123693100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click Submit button",
+            "match": {
+              "location": "Steps.Login_Steps.click_Submit_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login_Test.feature",
+    "tags": []
+  }
+]

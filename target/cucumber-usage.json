@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^Navigate to Website$",
+    "steps": [
+      {
+        "name": "Navigate to Website",
+        "aggregatedDurations": {
+          "median": 0.5848564,
+          "average": 0.5848564
+        },
+        "durations": [
+          {
+            "duration": 0.5848564,
+            "location": "file:///C:/Users/elifk/IdeaProjects/CucumberFramework/src/test/java/Features/Login_Test.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click Popup$",
+    "steps": [
+      {
+        "name": "click Popup",
+        "aggregatedDurations": {
+          "median": 0.1759689,
+          "average": 0.1759689
+        },
+        "durations": [
+          {
+            "duration": 0.1759689,
+            "location": "file:///C:/Users/elifk/IdeaProjects/CucumberFramework/src/test/java/Features/Login_Test.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click Sign in button$",
+    "steps": [
+      {
+        "name": "click Sign in button",
+        "aggregatedDurations": {
+          "median": 0.0501695,
+          "average": 0.0501695
+        },
+        "durations": [
+          {
+            "duration": 0.0501695,
+            "location": "file:///C:/Users/elifk/IdeaProjects/CucumberFramework/src/test/java/Features/Login_Test.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter Email \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "enter Email \"notstick61@gmail.com\"",
+        "aggregatedDurations": {
+          "median": 0.1660481,
+          "average": 0.1660481
+        },
+        "durations": [
+          {
+            "duration": 0.1660481,
+            "location": "file:///C:/Users/elifk/IdeaProjects/CucumberFramework/src/test/java/Features/Login_Test.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^write Password \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "write Password \"Antimon.55\"",
+        "aggregatedDurations": {
+          "median": 0.1316922,
+          "average": 0.1316922
+        },
+        "durations": [
+          {
+            "duration": 0.1316922,
+            "location": "file:///C:/Users/elifk/IdeaProjects/CucumberFramework/src/test/java/Features/Login_Test.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click Submit button$",
+    "steps": [
+      {
+        "name": "click Submit button",
+        "aggregatedDurations": {
+          "median": 0.1236931,
+          "average": 0.1236931
+        },
+        "durations": [
+          {
+            "duration": 0.1236931,
+            "location": "file:///C:/Users/elifk/IdeaProjects/CucumberFramework/src/test/java/Features/Login_Test.feature:10"
+          }
+        ]
+      }
+    ]
+  }
+]

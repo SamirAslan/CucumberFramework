@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.152">
+    <testcase classname="Login Test" name="Go to Trendyol and Login Test" time="6.986">
+        <system-out><![CDATA[Given Navigate to Website...................................................passed
+And click Popup.............................................................passed
+And click Sign in button....................................................passed
+And enter Email "notstick61@gmail.com"......................................passed
+And write Password "Antimon.55".............................................passed
+When click Submit button....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
